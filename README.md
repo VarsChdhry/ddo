@@ -1,2 +1,2 @@
 # ddo
-DhartDhan Organics
+DhartIDhan Organics
