@@ -48591,7 +48591,7 @@ a.u-link.u-text-hover-color-var.hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -58px auto 0 0;
+  margin: -63px auto 0 -1px;
 }
 
 .u-header .u-nav-1 {
@@ -48611,7 +48611,7 @@ a.u-link.u-text-hover-color-var.hover {
 }
 
 .u-header .u-language-1 {
-  margin: -55px auto 50px 533px;
+  margin: -63px 27px 60px auto;
 }
 
 .u-header .u-icon-1 {
@@ -48629,60 +48629,70 @@ a.u-link.u-text-hover-color-var.hover {
 
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -57px;
+    margin-top: -62px;
+    margin-left: -1px;
   }
 
   .u-header .u-language-1 {
-    margin-top: -55px;
-    margin-left: 333px;
+    margin-top: -63px;
+    margin-right: 0;
   }
 }
-@media (max-width: 991px) {
-  .u-header .u-language-1 {
-    margin-left: 113px;
-  }
-}
-@media (max-width: 767px) {
-  .u-header .u-language-1 {
-    margin-left: 0;
-  }
-}
+
+
 
  .u-footer {
-  background-image: none;
-  --color-var: #dbc4a1;
+  --color-var: #e1d0b7;
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 148px;
+  min-height: 222px;
 }
 
 .u-footer .u-text-1 {
-  width: 417px;
-  margin: 76px auto 49px;
+  margin: 10px -5px 0;
+}
+
+.u-footer .u-social-icons-1 {
+  height: 32px;
+  width: 116px;
+  margin: 30px auto 60px;
+}
+
+.u-footer .u-icon-1 {
+  color: rgb(59, 89, 152) !important;
+  height: 100%;
+}
+
+.u-footer .u-icon-2 {
+  color: rgb(17, 17, 17) !important;
+  height: 100%;
+}
+
+.u-footer .u-icon-3 {
+  color: rgb(197, 54, 164) !important;
+  height: 100%;
 }
 @media (max-width: 1199px) {
-  .u-footer .u-sheet-1 {
-    min-height: 99px;
+  .u-footer .u-text-1 {
+    width: 417px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-footer .u-social-icons-1 {
+    min-height: 16px;
   }
 }
 @media (max-width: 991px) {
-  .u-footer .u-sheet-1 {
-    min-height: 76px;
-  }
-}
-@media (max-width: 767px) {
-  .u-footer .u-sheet-1 {
-    min-height: 57px;
-  }
-}
-@media (max-width: 575px) {
-  .u-footer .u-sheet-1 {
-    min-height: 36px;
-  }
-
   .u-footer .u-text-1 {
-    width: 340px;
+    width: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-footer .u-text-1 {
+    margin-top: 31px;
   }
 }
 
