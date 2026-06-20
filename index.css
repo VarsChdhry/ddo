@@ -1,0 +1,148 @@
+ .u-section-1 {
+  filter: none;
+  background-image: url("images/hero-image.jpeg");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 636px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 524px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 401px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 195px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 227px;
+  }
+} .u-section-2 {
+  min-height: 591px;
+}
+
+.u-section-2 .u-layout-wrap-1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-section-2 .u-image-1 {
+  min-height: 591px;
+  filter: none;
+  background-image: url("images/vermicompost2.png");
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 0 10px;
+}
+
+.u-section-2 .u-text-1 {
+  margin: 423px 20px -10px;
+}
+
+.u-section-2 .u-image-2 {
+  min-height: 591px;
+  background-image: url("images/cocopeat.png");
+}
+
+.u-section-2 .u-container-layout-2 {
+  padding: 30px;
+}
+
+@media (max-width: 1199px) {
+   .u-section-2 {
+    min-height: 500px;
+  }
+
+  .u-section-2 .u-image-1 {
+    background-position: 50% 50%;
+    background-size: cover;
+    min-height: 487px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-image-2 {
+    min-height: 487px;
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-2 {
+    min-height: 399px;
+  }
+
+  .u-section-2 .u-image-1 {
+    min-height: 663px;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .u-section-2 .u-text-1 {
+    width: auto;
+    margin-top: 427px;
+    margin-bottom: -13px;
+    margin-left: 20px;
+  }
+
+  .u-section-2 .u-image-2 {
+    min-height: 373px;
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-2 {
+    min-height: 1058px;
+  }
+
+  .u-section-2 .u-image-1 {
+    min-height: 995px;
+  }
+
+  .u-section-2 .u-image-2 {
+    min-height: 560px;
+  }
+
+  .u-section-2 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-2 {
+    min-height: 692px;
+  }
+
+  .u-section-2 .u-image-1 {
+    min-height: 626px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin: 0 -13px 0 13px;
+  }
+
+  .u-section-2 .u-image-2 {
+    min-height: 353px;
+  }
+}
