@@ -1,8 +1,9 @@
  .u-section-1 {
   filter: none;
-  background-image: url("/images/main-image.png");
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/main-image.png");
+  background-position: 50% 50%, 50% 50%;
+  background-size: cover, cover;
+  background-repeat: no-repeat;
 }
 
 .u-section-1 .u-sheet-1 {
