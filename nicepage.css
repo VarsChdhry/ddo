@@ -48999,3 +48999,91 @@ a.u-link.u-text-hover-color-var.hover {
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
+
+/* ==========================================
+   GLOBAL RESPONSIVE HEADER ROW FIX 
+   ========================================== */
+@media (min-width: 992px) {
+  /* 1. Sets a slim, uniform height and cream background for all pages */
+  header#header {
+    background-color: #dfd8d0 !important;
+    height: 100px !important;
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  /* 2. Forces elements into a clean horizontal grid row */
+  header#header [class*="u-sheet"] {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    height: auto !important;
+    min-height: unset !important;
+    position: relative !important;
+  }
+
+  /* 3. FIX THE WORD SMASHING: Forces navigation menu links to sit flat across a row */
+  header#header nav[class*="u-menu"] {
+    position: static !important;
+    margin: 0 !important;
+    order: 1 !important;
+    flex: 1 1 auto !important;
+  }
+  header#header ul[role="menubar"], 
+  header#header .u-nav-container,
+  header#header .u-nav-1 {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 15px !important;
+    position: static !important;
+    width: auto !important;
+  }
+  header#header .u-nav-item {
+    position: static !important;
+    display: inline-block !important;
+    width: auto !important;
+    white-space: nowrap !important; /* Prevents About and Us from breaking onto two lines */
+  }
+
+  /* 4. Ensures menu text links are dark gray for high contrast */
+  header#header nav[class*="u-menu"] .u-nav-link {
+    color: #2b2b2b !important;
+  }
+
+  /* 5. FIX THE LOGO SLIDE: Centers your brand logo precisely in the middle column */
+  header#header img[class*="u-image"] {
+    max-height: 45px !important;
+    width: auto !important;
+    position: absolute !important;
+    left: 50% !important;
+    top: 20px !important;
+    transform: translateX(-50%) !important;
+    margin: 0 !important;
+    order: 2 !important;
+  }
+
+  /* 6. Centers tagline subtext precisely beneath the logo image */
+  header#header [class*="u-text"] {
+    position: absolute !important;
+    top: 68px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    margin: 0 !important;
+    width: max-content !important;
+    text-align: center !important;
+  }
+
+  /* 7. Styles tagline typography */
+  header#header [class*="u-text"] p, 
+  header#header [class*="u-text"] span {
+    color: #555555 !important;
+    font-size: 0.8rem !important;
+    line-height: 1.1 !important;
+    letter-spacing: 0.5px !important;
+  }
+}
