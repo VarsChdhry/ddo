@@ -48571,7 +48571,6 @@ a.u-link.u-text-hover-color-var.hover {
 
 /*end-variables sitestylecss*/
  .u-header {
-  --color-var: #baa48f;
   --text-active-color-var: #000000;
 }
 
@@ -48620,6 +48619,10 @@ a.u-link.u-text-hover-color-var.hover {
   height: 32px;
 }
 @media (max-width: 1199px) {
+   .u-header {
+    --color-var: #baa48f;
+  }
+
   .u-header .u-text-1 {
     margin-right: 142px;
     margin-left: 393px;
