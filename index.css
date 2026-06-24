@@ -1,17 +1,17 @@
  .u-section-1 {
   filter: none;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/main-image.png");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/main-image.png');
   background-position: 50% 50%, 50% 50%;
   background-size: cover, cover;
   background-repeat: no-repeat;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 636px;
+  min-height: 787px;
 }
 
 .u-section-1 .u-text-1 {
-  margin: 0 0 60px;
+  margin: 151px 0 60px;
 }
 
 @media (max-width: 1199px) {
@@ -20,7 +20,7 @@
   }
 
   .u-section-1 .u-sheet-1 {
-    min-height: 524px;
+    min-height: 649px;
   }
 }
 
