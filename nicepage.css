@@ -48829,15 +48829,19 @@ a.u-link.u-text-hover-color-var.hover {
   min-height: 147px;
 }
 
+.u-header .u-text-1 {
+  margin: 89px 274px 0 461px;
+}
+
 .u-header .u-image-1 {
   filter: none;
   width: 369px;
   height: 144px;
-  margin: -6px auto 0 355px;
+  margin: -144px auto 0 355px;
 }
 
 .u-header .u-menu-1 {
-  margin: -90px auto 0 0;
+  margin: -90px auto 60px 0;
 }
 
 .u-header .u-nav-1 {
@@ -48854,10 +48858,6 @@ a.u-link.u-text-hover-color-var.hover {
 .u-header .u-nav-2 {
   font-size: 1.25rem;
 }
-
-.u-header .u-text-1 {
-  margin: 4px 287px 30px auto;
-}
 @media (max-width: 1199px) {
    .u-header {
     --color-var: #b7a181;
@@ -48866,54 +48866,62 @@ a.u-link.u-text-hover-color-var.hover {
     background-size: cover;
   }
 
-  .u-header .u-image-1 {
-    inset: auto;
-    margin-top: -6px;
+  .u-header .u-text-1 {
+    margin-right: 174px;
+    margin-left: 361px;
   }
 
-  .u-header .u-text-1 {
-    margin-right: 287px;
+  .u-header .u-image-1 {
+    inset: auto;
+    margin-top: -144px;
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-text-1 {
+    margin-right: 64px;
+    margin-left: 251px;
+  }
+
   .u-header .u-image-1 {
-    margin-top: -6px;
+    margin-top: -144px;
     margin-left: 149px;
   }
 
   .u-header .u-menu-1 {
     margin-top: -90px;
-  }
-
-  .u-header .u-text-1 {
-    width: auto;
-    margin-top: 0;
-    margin-right: 68px;
-    margin-bottom: 38px;
   }
 }
 @media (max-width: 767px) {
+  .u-header .u-text-1 {
+    margin-right: 0;
+    margin-left: 135px;
+  }
+
   .u-header .u-image-1 {
-    margin-top: -9px;
+    inset: auto;
+    margin-top: -144px;
     margin-left: 149px;
   }
 
   .u-header .u-menu-1 {
     margin-top: -90px;
-  }
-
-  .u-header .u-text-1 {
-    margin-top: 0;
   }
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 138px;
+    min-height: 136px;
+  }
+
+  .u-header .u-text-1 {
+    width: auto;
+    margin-top: 90px;
+    margin-right: -37px;
+    margin-left: 0;
   }
 
   .u-header .u-image-1 {
     height: 133px;
-    margin-top: -8px;
+    margin-top: -144px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -48923,10 +48931,6 @@ a.u-link.u-text-hover-color-var.hover {
     width: auto;
     margin-top: -83px;
     margin-left: -24px;
-  }
-
-  .u-header .u-text-1 {
-    margin: 18px -28px 21px 0;
   }
 }
  .u-footer {
