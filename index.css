@@ -326,3 +326,73 @@
     min-height: 683px;
   }
 }
+
+/* ==========================================
+   UNBREAKABLE SLENDER HEADER FIX
+   ========================================== */
+@media (min-width: 992px) {
+  header#header {
+    background-color: #dfd8d0 !important; /* Locks in the clean cream/beige color */
+    height: 90px !important; /* Makes header slender and modern */
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  header#header [class*="u-sheet"] {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    height: auto !important;
+    min-height: unset !important;
+    position: relative !important;
+  }
+
+  /* Moves navigation links cleanly to the left margin */
+  header#header nav[class*="u-menu"] {
+    position: static !important;
+    margin: 0 !important;
+    order: 1 !important;
+    flex: 1 !important;
+  }
+
+  /* Forces menu text links to be dark gray so they don't wash out */
+  header#header nav[class*="u-menu"] .u-nav-link {
+    color: #2b2b2b !important;
+  }
+
+  /* Automatically scales logo graphic size based on screen width */
+  header#header img[class*="u-image"] {
+    max-height: 48px !important;
+    width: auto !important;
+    position: static !important;
+    margin: 0 auto !important;
+    order: 2 !important;
+    flex: 0 1 auto !important;
+  }
+
+  /* Anchors tagline subtext tightly directly beneath logo */
+  header#header [class*="u-text"] {
+    position: absolute !important;
+    top: 54px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    margin: 0 !important;
+    width: max-content !important;
+    text-align: center !important;
+    order: 3 !important;
+  }
+
+  /* Forces tagline text to stay legible dark gray */
+  header#header [class*="u-text"] p, 
+  header#header [class*="u-text"] span {
+    color: #555555 !important;
+    font-size: 0.8rem !important;
+    line-height: 1.1 !important;
+    letter-spacing: 0.5px !important;
+  }
+}
