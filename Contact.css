@@ -86,20 +86,12 @@
     margin-top: 18px;
     margin-right: auto;
   }
-
-  .u-section-1 .u-social-icons-1 {
-    min-height: auto;
-  }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
-  }
-
-  .u-section-1 .u-social-icons-1 {
-    min-height: 16px;
   }
 }
 
@@ -111,6 +103,5 @@
 
   .u-section-1 .u-social-icons-1 {
     margin-left: auto;
-    min-height: auto;
   }
 }
