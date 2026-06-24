@@ -29,7 +29,57 @@
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
-  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <meta data-intl-tel-input-cdn-path="intlTelInput/">
+    <style>
+      /* Fixes layout cropping on desktop screens */
+      @media (min-width: 992px) {
+        header#header {
+          background-color: #c4b5a3 !important; /* Matches your exact sand header color */
+          height: 120px !important; /* Gives the logo breathing room */
+          position: relative !important;
+          display: flex !important;
+          align-items: center !important;
+          padding: 10px 0 !important;
+        }
+        header#header .u-sheet-1 {
+          display: flex !important;
+          flex-direction: row !important;
+          justify-content: space-between !important;
+          align-items: center !important;
+          width: 100% !important;
+          max-width: 1200px !important;
+          margin: 0 auto !important;
+          height: auto !important;
+          min-height: unset !important;
+        }
+        header .u-image-1 {
+          max-height: 55px !important; /* Keeps logo centered and small */
+          width: auto !important;
+          position: static !important;
+          order: 2 !important; /* Centers logo between links */
+          margin: 0 !important;
+        }
+        header .u-menu-1 {
+          position: static !important;
+          order: 1 !important; /* Moves menu links to the left side */
+          margin: 0 !important;
+        }
+        header .u-text-1 {
+          position: absolute !important;
+          top: 75px !important;
+          left: 50% !important;
+          transform: translateX(-50%) !important;
+          margin: 0 !important;
+          width: auto !important;
+        }
+        header .u-text-1 p span {
+          color: #ffffff !important; /* Keeps tagline readable in white text */
+          font-size: 0.9rem !important;
+        }
+      }
+    </style>
+
+</head>
   <body data-home-page="Home.html" data-home-page-title="Home" data-path-to-root="/" data-include-products="false" class="u-body u-clearfix u-xl-mode" data-lang="en"><header class="u-clearfix u-color-var u-header u-header" id="header" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-sheet-1">
         <div class="fr-view u-clearfix u-rich-text u-text u-text-1" data-lang-en="<p><span class=&quot;u-text-body-alt-color&quot;>Premium Vermicompost &amp;amp; Coco Peat Solutions</span></p>" data-lang-hi="<p><span class=&quot;u-text-body-alt-color&quot;>Premium Vermicompost &amp;amp; Coco Peat Solutions</span></p>">
           <p><span class="u-text-body-alt-color">Premium Vermicompost &amp; Coco Peat Solutions</span>
