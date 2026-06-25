@@ -191,17 +191,16 @@
 
   .u-section-1 .u-layout-wrap-1 {
     width: 399px;
-    margin: -42px -30px 50px;
+    margin: 0 -29px 42px;
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 1070px;
+    min-height: 1044px;
   }
 
   .u-section-1 .u-image-1 {
     height: 235px;
     width: 340px;
-    margin-top: 38px;
     margin-right: auto;
   }
 
@@ -214,7 +213,7 @@
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 326px;
+    min-height: 318px;
   }
 
   .u-section-1 .u-text-3 {
