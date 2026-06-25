@@ -48822,7 +48822,6 @@ a.u-link.u-text-hover-color-var.hover {
  .u-header {
   --text-active-color-var: #000000;
   filter: none;
-  --color-var: #a08f7c;
 }
 
 .u-header .u-sheet-1 {
@@ -48900,10 +48899,6 @@ a.u-link.u-text-hover-color-var.hover {
   }
 }
 @media (max-width: 767px) {
-  .u-header .u-image-1 {
-    inset: auto;
-  }
-
   .u-header .u-menu-1 {
     margin-top: 20px;
   }
