@@ -50,7 +50,7 @@
   }
 
   .u-section-1 .u-sheet-1 {
-    min-height: 101px;
+    min-height: 171px;
   }
 } .u-section-2 {
   min-height: 1584px;
@@ -141,6 +141,7 @@
   min-height: 785px;
   filter: none;
   background-image: url("/images/cocopeat.png");
+  background-position: 50% 50%;
 }
 
 .u-section-2 .u-container-layout-4 {
@@ -185,7 +186,6 @@
   }
 
   .u-section-2 .u-image-2 {
-    background-position: 50% 50%;
     min-height: 647px;
   }
 }
