@@ -39,9 +39,9 @@
 
 .u-section-1 .u-social-icons-1 {
   height: 50px;
-  width: 266px;
+  width: 253px;
   min-width: 140px;
-  margin: 20px auto 0 81px;
+  margin: 20px 103px 0 81px;
 }
 
 .u-section-1 .u-icon-1 {
@@ -58,8 +58,9 @@
 }
 
 .u-section-1 .u-icon-4 {
-  height: 0;
-  color: rgb(0, 122, 185) !important;
+  height: 100%;
+  color: rgb(0, 230, 118) !important;
+  background-image: none;
 }
 
 @media (max-width: 1199px) {
@@ -96,12 +97,24 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 897px;
+  }
+
   .u-section-1 .u-group-1 {
-    width: 340px;
-    min-height: 395px;
+    min-height: 410px;
+    margin-bottom: 45px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-bottom: 15px;
   }
 
   .u-section-1 .u-social-icons-1 {
     margin-left: auto;
+    margin-right: 45px;
   }
 }
