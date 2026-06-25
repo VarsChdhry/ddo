@@ -48822,6 +48822,7 @@ a.u-link.u-text-hover-color-var.hover {
  .u-header {
   --text-active-color-var: #000000;
   filter: none;
+  --color-var: #a08f7c;
 }
 
 .u-header .u-sheet-1 {
@@ -48893,9 +48894,9 @@ a.u-link.u-text-hover-color-var.hover {
 
   .u-header .u-text-1 {
     width: auto;
-    margin-top: 7px;
-    margin-right: 0;
-    margin-left: 228px;
+    margin-top: 6px;
+    margin-right: 68px;
+    margin-left: 160px;
   }
 }
 @media (max-width: 767px) {
@@ -48904,6 +48905,7 @@ a.u-link.u-text-hover-color-var.hover {
   }
 
   .u-header .u-text-1 {
+    margin-right: 0;
     margin-left: 138px;
   }
 }
