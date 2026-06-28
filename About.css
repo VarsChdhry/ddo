@@ -37,19 +37,24 @@
   background-image: none;
 }
 
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1011px;
+  }
+
+  .u-section-1 .u-social-icons-1 {
+    margin-right: auto;
+  }
+}
+
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1242px;
+    min-height: 1243px;
   }
 
   .u-section-1 .u-social-icons-1 {
     margin-top: -31px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-1 .u-social-icons-1 {
-    margin-right: 364px;
+    margin-bottom: 55px;
   }
 }
 
@@ -60,7 +65,5 @@
 
   .u-section-1 .u-social-icons-1 {
     margin-top: -32px;
-    margin-right: auto;
-    margin-bottom: 55px;
   }
 }
