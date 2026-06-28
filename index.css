@@ -1,7 +1,7 @@
  .u-section-1 {
   filter: none;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/main-image.png');
-  background-position: 50% 50%, 50% 50%;
+  background-position: 50% 50%;
   background-size: cover, cover;
   background-repeat: no-repeat;
 }
@@ -318,7 +318,7 @@
   }
 
   .u-section-2 .u-layout-cell-2 {
-    min-height: 863px;
+    min-height: 887px;
   }
 
   .u-section-2 .u-container-layout-2 {
