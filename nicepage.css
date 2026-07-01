@@ -48844,13 +48844,12 @@ a.u-link.u-text-hover-color-var.hover {
 
 .u-header .u-nav-1 {
   font-weight: 700;
-  font-size: 1rem;
 }
 
 .u-header .u-nav-link-2 {
   --text-color-var: #23262a;
   --text-active-color-var: #23262a;
-  padding: 10px 3px;
+  padding: 14px 0;
 }
 
 .u-header .u-nav-2 {
@@ -48865,24 +48864,27 @@ a.u-link.u-text-hover-color-var.hover {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 125px;
+    min-height: 126px;
   }
 
   .u-header .u-image-1 {
     margin-top: -28px;
-    margin-right: auto;
-    margin-left: calc(((100% - 940px) / 2)  + 254px);
+    margin-right: calc(((100% - 940px) / 2)  + 252px);
   }
 
   .u-header .u-menu-1 {
     width: auto;
     margin-top: -36px;
-    margin-left: calc(((100% - 940px) / 2)  + -28px);
+    margin-left: calc(((100% - 940px) / 2)  + -41px);
+  }
+
+  .u-header .u-nav-1 {
+    font-size: 1rem;
   }
 
   .u-header .u-text-1 {
     width: auto;
-    margin: -62px calc(((100% - 940px) / 2)  + -79px) 22px calc(((100% - 940px) / 2));
+    margin: -58px calc(((100% - 940px) / 2)  + 59px) 10px calc(((100% - 940px) / 2)  + 424px);
   }
 }
 @media (max-width: 991px) {
@@ -48894,12 +48896,13 @@ a.u-link.u-text-hover-color-var.hover {
     height: 117px;
     inset: auto;
     margin-top: -13px;
+    margin-right: calc(((100% - 720px) / 2) + 252px);
     margin-left: calc(((100% - 720px) / 2)  + 109px);
   }
 
   .u-header .u-menu-1 {
     margin-top: -74px;
-    margin-left: calc(((100% - 720px) / 2) + -28px);
+    margin-left: calc(((100% - 720px) / 2) + -41px);
   }
 
   .u-header .u-text-1 {
@@ -48915,12 +48918,13 @@ a.u-link.u-text-hover-color-var.hover {
 
   .u-header .u-image-1 {
     margin-top: -9px;
+    margin-right: calc(((100% - 540px) / 2) + 171px);
     margin-left: calc(((100% - 540px) / 2)  + 70px);
   }
 
   .u-header .u-menu-1 {
     margin-top: -66px;
-    margin-left: calc(((100% - 540px) / 2) + -28px);
+    margin-left: calc(((100% - 540px) / 2) + -41px);
   }
 
   .u-header .u-text-1 {
@@ -48943,7 +48947,7 @@ a.u-link.u-text-hover-color-var.hover {
 
   .u-header .u-menu-1 {
     margin-top: -64px;
-    margin-left: calc(((100% - 340px) / 2) + -28px);
+    margin-left: calc(((100% - 340px) / 2) + -41px);
   }
 
   .u-header .u-hamburger-link-1 {
