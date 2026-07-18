@@ -48321,6 +48321,24 @@ a.u-link.u-text-hover-color-var.hover {
         
         
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         --theme-sheet-width-xl: 1140px;
         --theme-sheet-width-lg: 940px;
         --theme-sheet-width-md: 720px;
@@ -48442,9 +48460,19 @@ a.u-link.u-text-hover-color-var.hover {
         }
         .u-btn
         {
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: -45.9297px;
+        margin-bottom: 60px;
+        font-weight: 700;
+        letter-spacing: 1px;
         line-height: 1.4;
+        text-transform: uppercase;
+        box-shadow: 5px 5px 20px 0 rgba(255,255,255,0.4);
+        border-width: 2px;
+        border-style: solid;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
         }
         blockquote
         {
@@ -48741,7 +48769,8 @@ a.u-link.u-text-hover-color-var.hover {
         .u-image:not(.u-shading) > .u-container-layout > .u-btn,
         .u-btn
         {
-        background-color: #478ac9;
+        background-color: undefined;
+        border-color: undefined;
         color: #ffffff;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > .u-btn:hover,
@@ -48749,24 +48778,27 @@ a.u-link.u-text-hover-color-var.hover {
         .u-image:not(.u-shading) > .u-container-layout > .u-btn:hover,
         .u-btn:hover
         {
-        background-color: #387cbd;
-        color: #e6e6e6;
+        background-color: #ffffff;
+        border-color: #ffffff;
+        color: #000000;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > .u-btn:focus,
         .u-gradient > .u-container-layout > .u-btn:focus,
         .u-image:not(.u-shading) > .u-container-layout > .u-btn:focus,
         .u-btn:focus
         {
-        background-color: #387cbd;
-        color: #e6e6e6;
+        background-color: #ffffff;
+        border-color: #ffffff;
+        color: #000000;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > .u-btn:active,
         .u-gradient > .u-container-layout > .u-btn:active,
         .u-image:not(.u-shading) > .u-container-layout > .u-btn:active,
         .u-btn:active
         {
-        background-color: #387cbd;
-        color: #e6e6e6;
+        background-color: #ffffff;
+        border-color: undefined;
+        color: #000000;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > blockquote,
         .u-gradient > .u-container-layout > blockquote,
@@ -48801,17 +48833,20 @@ a.u-link.u-text-hover-color-var.hover {
         }
         :where(.u-shading, .u-overlap-contrast .u-header) .u-btn
         {
-        background-color: #adcce9;
+        background-color: #ffffff;
+        border-color: #ffffff;
         color: #000000;
         }
         :where(.u-shading, .u-overlap-contrast .u-header) .u-btn:hover
         {
-        background-color: #8db8e0;
+        background-color: #b3b3b3;
+        border-color: #b3b3b3;
         color: #ffffff;
         }
         :where(.u-shading, .u-overlap-contrast .u-header) .u-btn:active
         {
-        background-color: #8db8e0;
+        background-color: #b3b3b3;
+        border-color: #ffffff;
         color: #ffffff;
         }
         /** alt-color-rules **/
@@ -48880,7 +48915,7 @@ a.u-link.u-text-hover-color-var.hover {
 
   .u-header .u-text-1 {
     width: auto;
-    margin: -57px calc(((100% - 940px) / 2)  + 59px) 17px calc(((100% - 940px) / 2)  + 424px);
+    margin: -58px calc(((100% - 940px) / 2)  + 59px) 18px calc(((100% - 940px) / 2)  + 424px);
   }
 }
 @media (max-width: 991px) {
@@ -49014,7 +49049,6 @@ a.u-link.u-text-hover-color-var.hover {
 
   .u-footer .u-social-icons-1 {
     margin-top: 29px;
-    margin-bottom: 35px;
   }
 }
 
