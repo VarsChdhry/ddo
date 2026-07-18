@@ -48823,7 +48823,7 @@ a.u-link.u-text-hover-color-var.hover {
   --text-active-color-var: #000000;
   filter: none;
   --color-var: #a08f7c;
-  min-height: 129px;
+  min-height: 134px;
 }
 
 .u-header .u-image-1 {
@@ -48834,7 +48834,7 @@ a.u-link.u-text-hover-color-var.hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -79px auto 0 calc(((100% - 1140px) / 2)  + -28px);
+  margin: -45px auto 0 calc(((100% - 1140px) / 2)  + -25px);
 }
 
 .u-header .u-hamburger-link-1 {
@@ -48858,14 +48858,13 @@ a.u-link.u-text-hover-color-var.hover {
 }
 
 .u-header .u-text-1 {
-  margin: -6px calc(((100% - 1140px) / 2)  + -37px) 4px calc(((100% - 1140px) / 2)  + 504px);
+  margin: -40px calc(((100% - 1140px) / 2)  + -37px) 0 calc(((100% - 1140px) / 2)  + 504px);
 }
 @media (max-width: 1199px) {
    .u-header {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 126px;
   }
 
   .u-header .u-image-1 {
@@ -48875,20 +48874,16 @@ a.u-link.u-text-hover-color-var.hover {
 
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -36px;
-    margin-left: calc(((100% - 940px) / 2)  + -41px);
+    margin-top: -35px;
+    margin-left: calc(((100% - 940px) / 2)  + -20px);
   }
 
   .u-header .u-text-1 {
     width: auto;
-    margin: -58px calc(((100% - 940px) / 2)  + 59px) 10px calc(((100% - 940px) / 2)  + 424px);
+    margin: -57px calc(((100% - 940px) / 2)  + 59px) 17px calc(((100% - 940px) / 2)  + 424px);
   }
 }
 @media (max-width: 991px) {
-   .u-header {
-    min-height: 114px;
-  }
-
   .u-header .u-image-1 {
     height: 117px;
     inset: auto;
@@ -48903,19 +48898,17 @@ a.u-link.u-text-hover-color-var.hover {
   }
 
   .u-header .u-text-1 {
-    margin-top: -18px;
-    margin-right: calc(((100% - 720px) / 2)  + -69px);
-    margin-left: calc(((100% - 720px) / 2)  + 229px);
+    margin: -5px calc(((100% - 720px) / 2)  + -69px) 12px calc(((100% - 720px) / 2)  + 229px);
   }
 }
 @media (max-width: 767px) {
    .u-header {
-    min-height: 108px;
+    min-height: 116px;
   }
 
   .u-header .u-image-1 {
     margin-top: -9px;
-    margin-right: calc(((100% - 540px) / 2) + 171px);
+    margin-right: calc(((100% - 540px) / 2)  + 171px);
     margin-left: calc(((100% - 540px) / 2)  + 70px);
   }
 
@@ -48925,13 +48918,13 @@ a.u-link.u-text-hover-color-var.hover {
   }
 
   .u-header .u-text-1 {
-    margin: -6px calc(((100% - 540px) / 2)  + -189px) -6px calc(((100% - 540px) / 2)  + 189px);
+    margin: -6px calc(((100% - 540px) / 2)  + -189px) 2px calc(((100% - 540px) / 2)  + 189px);
   }
 }
 @media (max-width: 575px) {
    .u-header {
     --color-var: #93836c;
-    min-height: 113px;
+    min-height: 123px;
   }
 
   .u-header .u-image-1 {
@@ -48952,7 +48945,7 @@ a.u-link.u-text-hover-color-var.hover {
   }
 
   .u-header .u-text-1 {
-    margin: 10px 0 -6px calc(((100% - 340px) / 2));
+    margin: 8px calc(((100% - 340px) / 2)  + 18px) 5px calc(((100% - 340px) / 2)  + 63px);
   }
 }
  .u-footer {
@@ -48963,17 +48956,17 @@ a.u-link.u-text-hover-color-var.hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 225px;
+  min-height: 178px;
 }
 
 .u-footer .u-text-1 {
-  margin: 49px -5px 0;
+  margin: 22px 0 0;
 }
 
 .u-footer .u-social-icons-1 {
   height: 39px;
   width: 181px;
-  margin: 0 auto 49px;
+  margin: 14px auto 35px;
 }
 
 .u-footer .u-icon-1 {
@@ -49008,12 +49001,6 @@ a.u-link.u-text-hover-color-var.hover {
   .u-footer .u-text-1 {
     width: auto;
     margin-top: 26px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-footer .u-social-icons-1 {
-    width: 181px;
   }
 }
 @media (max-width: 991px) {
@@ -49022,22 +49009,27 @@ a.u-link.u-text-hover-color-var.hover {
   }
 
   .u-footer .u-text-1 {
-    margin-top: 1px;
+    margin-top: 22px;
+  }
+
+  .u-footer .u-social-icons-1 {
+    margin-top: 29px;
+    margin-bottom: 35px;
   }
 }
 
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 335px;
+    min-height: 360px;
   }
 
   .u-footer .u-text-1 {
-    margin-top: 15px;
+    margin-top: 33px;
   }
 
   .u-footer .u-social-icons-1 {
-    margin-top: -15px;
-    margin-bottom: 50px;
+    margin-top: 32px;
+    margin-bottom: 33px;
   }
 }
 

@@ -2,34 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://dhartidhanorganics.com/Home.html</loc>
-        <lastmod>2026-07-16T14:02:03-04:00</lastmod>
-    </url>
-    <url>
-        <loc>https://dhartidhanorganics.com/hi/Home.html</loc>
-        <lastmod>2026-07-16T14:02:03-04:00</lastmod>
-    </url>
-    <url>
-        <loc>https://dhartidhanorganics.com/hi/index.html</loc>
-        <lastmod>2026-07-16T14:02:03-04:00</lastmod>
+        <lastmod>2026-07-18T17:39:02-04:00</lastmod>
     </url>
     <url>
         <loc>https://dhartidhanorganics.com/index.html</loc>
-        <lastmod>2026-07-16T14:02:03-04:00</lastmod>
+        <lastmod>2026-07-18T17:39:02-04:00</lastmod>
     </url>
     <url>
         <loc>https://dhartidhanorganics.com/About.html</loc>
-        <lastmod>2026-07-02T15:36:18-04:00</lastmod>
-    </url>
-    <url>
-        <loc>https://dhartidhanorganics.com/hi/About.html</loc>
-        <lastmod>2026-07-02T15:36:18-04:00</lastmod>
+        <lastmod>2026-07-18T13:39:29-04:00</lastmod>
     </url>
     <url>
         <loc>https://dhartidhanorganics.com/Contact.html</loc>
-        <lastmod>2026-07-02T15:36:55-04:00</lastmod>
-    </url>
-    <url>
-        <loc>https://dhartidhanorganics.com/hi/Contact.html</loc>
         <lastmod>2026-07-02T15:36:55-04:00</lastmod>
     </url>
     <url>
@@ -37,15 +21,7 @@
         <lastmod>2026-07-02T16:33:06-04:00</lastmod>
     </url>
     <url>
-        <loc>https://dhartidhanorganics.com/hi/CocoPeat.html</loc>
-        <lastmod>2026-07-02T16:33:06-04:00</lastmod>
-    </url>
-    <url>
         <loc>https://dhartidhanorganics.com/VermiCompost.html</loc>
-        <lastmod>2026-07-02T16:37:33-04:00</lastmod>
-    </url>
-    <url>
-        <loc>https://dhartidhanorganics.com/hi/VermiCompost.html</loc>
         <lastmod>2026-07-02T16:37:33-04:00</lastmod>
     </url>
     <url>
@@ -53,7 +29,7 @@
         <lastmod>2026-07-16T11:30:50-04:00</lastmod>
     </url>
     <url>
-        <loc>https://dhartidhanorganics.com/hi/Bulk.html</loc>
-        <lastmod>2026-07-16T11:30:50-04:00</lastmod>
+        <loc>https://dhartidhanorganics.com/Products.html</loc>
+        <lastmod>2026-07-18T15:22:25-04:00</lastmod>
     </url>
 </urlset>
