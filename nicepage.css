@@ -49005,24 +49005,28 @@ a.u-link.u-text-hover-color-var.hover {
 }
 
 .u-footer .u-icon-1 {
-  color: rgb(59, 89, 152) !important;
   height: 100%;
+  color: rgb(59, 89, 152) !important;
+  padding: 10px;
 }
 
 .u-footer .u-icon-2 {
-  color: rgb(17, 17, 17) !important;
   height: 100%;
+  color: rgb(17, 17, 17) !important;
+  padding: 10px;
 }
 
 .u-footer .u-icon-3 {
-  color: rgb(197, 54, 164) !important;
   height: 100%;
+  color: rgb(197, 54, 164) !important;
+  padding: 10px;
 }
 
 .u-footer .u-icon-4 {
   height: 100%;
-  color: rgb(0, 230, 118) !important;
   background-image: none;
+  color: rgb(0, 230, 118) !important;
+  padding: 10px;
 }
 @media (max-width: 1199px) {
    .u-footer {
