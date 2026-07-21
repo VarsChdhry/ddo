@@ -331,6 +331,7 @@
 
 .u-section-2 .u-icon-1 {
   width: 64px;
+  filter: none;
   margin: 0 auto;
 }
 
