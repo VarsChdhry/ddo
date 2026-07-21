@@ -48861,15 +48861,18 @@ a.u-link.u-text-hover-color-var.hover {
   min-height: 134px;
 }
 
+.u-header .u-text-1 {
+  margin: 85px 0 0 calc(((100% - 1140px) / 2)  + 517px);
+}
+
 .u-header .u-image-1 {
-  filter: none;
-  width: 369px;
-  height: 144px;
-  margin: -19px calc(((100% - 1140px) / 2)  + 372px) 0 auto;
+  width: 344px;
+  height: 134px;
+  margin: -146px calc(((100% - 1140px) / 2)  + 380px) 0 auto;
 }
 
 .u-header .u-menu-1 {
-  margin: -36px auto 0 calc(((100% - 1140px) / 2)  + -25px);
+  margin: -33px auto 0 calc(((100% - 1140px) / 2)  + -25px);
 }
 
 .u-header .u-hamburger-link-1 {
@@ -48891,101 +48894,93 @@ a.u-link.u-text-hover-color-var.hover {
 .u-header .u-nav-2 {
   font-size: 1.25rem;
 }
-
-.u-header .u-text-1 {
-  margin: -48px calc(((100% - 1140px) / 2)  + -37px) 0 calc(((100% - 1140px) / 2)  + 504px);
-}
 @media (max-width: 1199px) {
    .u-header {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 137px;
-  }
-
-  .u-header .u-image-1 {
-    margin-top: -28px;
-    margin-right: calc(((100% - 940px) / 2)  + 252px);
-  }
-
-  .u-header .u-menu-1 {
-    width: auto;
-    margin-top: -18px;
-    margin-left: calc(((100% - 940px) / 2)  + -23px);
   }
 
   .u-header .u-text-1 {
     width: auto;
-    margin: -75px calc(((100% - 940px) / 2)  + 58px) 20px calc(((100% - 940px) / 2)  + 425px);
+    margin-top: 68px;
+    margin-right: calc(((100% - 940px) / 2)  + 58px);
+    margin-left: calc(((100% - 940px) / 2)  + 425px);
+  }
+
+  .u-header .u-image-1 {
+    margin-top: -114px;
+    margin-right: calc(((100% - 940px) / 2)  + 380px);
+  }
+
+  .u-header .u-menu-1 {
+    width: auto;
+    margin-top: -39px;
+    margin-bottom: 27px;
+    margin-left: calc(((100% - 940px) / 2)  + -23px);
   }
 }
 @media (max-width: 991px) {
-   .u-header {
-    min-height: 0;
+  .u-header .u-text-1 {
+    margin-top: 68px;
+    margin-right: calc(((100% - 720px) / 2)  + -69px);
+    margin-left: calc(((100% - 720px) / 2)  + 229px);
   }
 
   .u-header .u-image-1 {
-    height: 117px;
-    inset: auto;
-    margin-top: -13px;
-    margin-right: calc(((100% - 720px) / 2) + 252px);
-    margin-left: calc(((100% - 720px) / 2)  + 109px);
+    margin-top: -146px;
+    margin-right: calc(((100% - 720px) / 2)  + 376px);
   }
 
   .u-header .u-menu-1 {
-    margin-top: -63px;
+    margin-top: -64px;
+    margin-bottom: 60px;
     margin-left: calc(((100% - 720px) / 2)  + 44px);
-  }
-
-  .u-header .u-text-1 {
-    margin: -5px calc(((100% - 720px) / 2)  + -69px) 0 calc(((100% - 720px) / 2)  + 229px);
   }
 }
 @media (max-width: 767px) {
-   .u-header {
-    min-height: 116px;
+  .u-header .u-text-1 {
+    margin-top: 81px;
+    margin-right: calc(((100% - 540px) / 2)  + -189px);
+    margin-left: calc(((100% - 540px) / 2)  + 189px);
   }
 
   .u-header .u-image-1 {
-    margin-top: -9px;
-    margin-right: calc(((100% - 540px) / 2)  + 171px);
-    margin-left: calc(((100% - 540px) / 2)  + 70px);
+    margin-top: -132px;
+    margin-right: calc(((100% - 540px) / 2)  + 196px);
   }
 
   .u-header .u-menu-1 {
-    margin-top: -66px;
-    margin-left: calc(((100% - 540px) / 2) + 44px);
-  }
-
-  .u-header .u-text-1 {
-    margin: -6px calc(((100% - 540px) / 2)  + -189px) 2px calc(((100% - 540px) / 2)  + 189px);
+    margin-top: -86px;
+    margin-left: calc(((100% - 540px) / 2)  + 44px);
   }
 }
 @media (max-width: 575px) {
    .u-header {
     --color-var: #93836c;
-    min-height: 126px;
+    min-height: 132px;
+  }
+
+  .u-header .u-text-1 {
+    margin-top: 85px;
+    margin-right: calc(((100% - 340px) / 2)  + 18px);
+    margin-left: calc(((100% - 340px) / 2)  + 63px);
   }
 
   .u-header .u-image-1 {
-    height: 96px;
-    margin-top: 0;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    width: 340px;
+    height: 132px;
+    margin-top: -129px;
+    margin-right: calc(((100% - 340px) / 2));
   }
 
   .u-header .u-menu-1 {
-    margin-top: -64px;
+    margin-top: -102px;
     margin-left: calc(((100% - 340px) / 2));
   }
 
   .u-header .u-hamburger-link-1 {
     font-size: calc(1em + 8px);
-  }
-
-  .u-header .u-text-1 {
-    margin: 8px calc(((100% - 340px) / 2)  + 18px) 5px calc(((100% - 340px) / 2)  + 63px);
   }
 }
  .u-footer {
