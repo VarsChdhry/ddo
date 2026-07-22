@@ -184,7 +184,6 @@
   width: 44px;
   height: 44px;
   --text-color-var: #161616;
-  color: rgb(0, 0, 0) !important;
   margin: 3px auto 0;
   padding: 10px;
 }
