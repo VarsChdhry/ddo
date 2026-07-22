@@ -1,6 +1,6 @@
  .u-section-1 {
   filter: none;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/main-image-jpg.jpeg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/DhartiDhan-organics-hero.webp');
   background-position: 50% 50%;
   background-size: cover, cover;
   background-repeat: no-repeat;
@@ -216,7 +216,6 @@
   --border-color-var: #afcaa7;
   --text-color-var: #000000;
   background-image: none;
-  color: rgb(0, 0, 0) !important;
   margin: 8px auto 0;
   padding: 10px;
 }

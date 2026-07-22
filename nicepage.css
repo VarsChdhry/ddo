@@ -48894,6 +48894,12 @@ a.u-link.u-text-hover-color-var.hover {
 .u-header .u-nav-2 {
   font-size: 1.25rem;
 }
+
+.u-header .u-shopping-cart-1 {
+  height: 24px;
+  width: 24px;
+  margin: -104px auto 60px calc(((100% - 1140px) / 2)  + 558px);
+}
 @media (max-width: 1199px) {
    .u-header {
     background-position: 50% 50%;
@@ -48919,6 +48925,11 @@ a.u-link.u-text-hover-color-var.hover {
     margin-bottom: 27px;
     margin-left: calc(((100% - 940px) / 2)  + -23px);
   }
+
+  .u-header .u-shopping-cart-1 {
+    margin-top: -104px;
+    margin-left: calc(((100% - 940px) / 2) + 460px);
+  }
 }
 @media (max-width: 991px) {
   .u-header .u-text-1 {
@@ -48937,6 +48948,10 @@ a.u-link.u-text-hover-color-var.hover {
     margin-bottom: 60px;
     margin-left: calc(((100% - 720px) / 2)  + 44px);
   }
+
+  .u-header .u-shopping-cart-1 {
+    margin-left: calc(((100% - 720px) / 2) + 352px);
+  }
 }
 @media (max-width: 767px) {
   .u-header .u-text-1 {
@@ -48953,6 +48968,10 @@ a.u-link.u-text-hover-color-var.hover {
   .u-header .u-menu-1 {
     margin-top: -86px;
     margin-left: calc(((100% - 540px) / 2)  + 44px);
+  }
+
+  .u-header .u-shopping-cart-1 {
+    margin-left: calc(((100% - 540px) / 2) + 264px);
   }
 }
 @media (max-width: 575px) {
@@ -48981,6 +49000,10 @@ a.u-link.u-text-hover-color-var.hover {
 
   .u-header .u-hamburger-link-1 {
     font-size: calc(1em + 8px);
+  }
+
+  .u-header .u-shopping-cart-1 {
+    margin-left: calc(((100% - 340px) / 2) + 166px);
   }
 }
  .u-footer {
