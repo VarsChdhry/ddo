@@ -136,7 +136,7 @@
 
 @media (max-width: 991px) {
    .u-section-1 {
-    min-height: 689px;
+    min-height: 691px;
   }
 
   .u-section-1 .u-image-1 {
@@ -172,21 +172,21 @@
 
   .u-section-1 .u-text-5 {
     margin-top: -210px;
-    margin-right: calc(((100% - 720px) / 2));
+    margin-right: calc(50% - 0);
     margin-left: calc(((100% - 720px) / 2)  + -8px);
   }
 
   .u-section-1 .u-btn-1 {
-    margin-top: 32px;
-    margin-right: calc(((100% - 720px) / 2)  + 183px);
+    margin-top: 31px;
+    margin-right: calc(((100% - 720px) / 2)  + 140px);
     margin-left: auto;
     padding-top: 7px;
     padding-bottom: 9px;
   }
 
   .u-section-1 .u-btn-2 {
-    margin-bottom: 29px;
-    margin-left: calc(((100% - 720px) / 2)  + 89px);
+    margin-bottom: 31px;
+    margin-left: calc(((100% - 720px) / 2)  + 64px);
   }
 }
 
@@ -203,36 +203,36 @@
 
   .u-section-1 .u-text-1 {
     margin-top: -183px;
-    margin-right: calc(((100% - 540px) / 2)  + 121px);
-    margin-left: calc(((100% - 540px) / 2)  + -14px);
+    margin-right: calc(((100% - 540px) / 2)  + 117px);
+    margin-left: calc(((100% - 540px) / 2));
   }
 
   .u-section-1 .u-text-2 {
     margin-top: -259px;
-    margin-right: calc(((100% - 540px) / 2)  + 59px);
-    margin-left: calc(((100% - 540px) / 2)  + -14px);
+    margin-right: calc(((100% - 540px) / 2)  + 45px);
+    margin-left: calc(((100% - 540px) / 2));
   }
 
   .u-section-1 .u-text-3 {
     font-size: 1.1111111111111112rem;
-    margin-top: 7px;
-    margin-right: calc(((100% - 540px) / 2)  + 13px);
-    margin-left: calc(((100% - 540px) / 2)  + -13px);
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   .u-section-1 .u-text-4 {
-    margin-top: 237px;
+    margin-top: 236px;
     margin-right: calc(((100% - 540px) / 2)  + -33px);
     margin-left: calc(((100% - 540px) / 2)  + 284px);
   }
 
   .u-section-1 .u-text-5 {
+    margin-top: -208px;
     margin-right: calc(((100% - 540px) / 2));
     margin-left: calc(((100% - 540px) / 2)  + -13px);
   }
 
   .u-section-1 .u-btn-1 {
-    margin-top: 37px;
+    margin-top: 35px;
     margin-right: calc(((100% - 540px) / 2)  + 74px);
   }
 
@@ -244,55 +244,55 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 763px;
+    min-height: 792px;
   }
 
   .u-section-1 .u-image-1 {
-    width: 160px;
-    height: 239px;
+    width: 182px;
+    height: 272px;
     margin-top: 0;
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: -128px;
-    margin-right: calc(((100% - 340px) / 2)  + 79px);
-    margin-left: calc(((100% - 340px) / 2)  + -27px);
+    margin-top: -136px;
+    margin-right: calc(((100% - 340px) / 2)  + 66px);
+    margin-left: calc(((100% - 340px) / 2)  + -14px);
   }
 
   .u-section-1 .u-text-2 {
     font-size: 1.25rem;
-    margin-top: -292px;
-    margin-left: 18px;
-    margin-right: 18px;
+    margin-top: -321px;
+    margin-right: 0;
+    margin-left: calc(((100% - 340px) / 2)  + -14px);
   }
 
   .u-section-1 .u-text-3 {
     margin-top: 0;
-    margin-right: calc(((100% - 340px) / 2)  + 61px);
-    margin-left: calc(((100% - 340px) / 2)  + -32px);
+    margin-right: calc(((100% - 340px) / 2)  + 79px);
+    margin-left: calc(((100% - 340px) / 2)  + -14px);
   }
 
   .u-section-1 .u-text-4 {
-    margin-top: 452px;
+    margin-top: 454px;
     margin-left: 23px;
     margin-right: 23px;
   }
 
   .u-section-1 .u-text-5 {
-    margin-top: -341px;
+    margin-top: -351px;
     margin-left: 22px;
     margin-right: 22px;
   }
 
   .u-section-1 .u-btn-1 {
-    margin-top: 163px;
+    margin-top: 171px;
     margin-right: calc(((100% - 340px) / 2));
     padding-right: 7px;
     padding-left: 5px;
   }
 
   .u-section-1 .u-btn-2 {
-    margin-top: -44px;
+    margin-top: -40px;
     margin-bottom: 26px;
     margin-left: calc(((100% - 340px) / 2)  + -9px);
     padding: 6px 6px 7px 5px;
@@ -903,12 +903,11 @@
     margin-top: 11px;
   }
 }.u-section-3 .u-sheet-1 {
-  min-height: 504px;
+  min-height: 509px;
 }
 
 .u-section-3 .u-layout-wrap-1 {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 5px 0 0;
 }
 
 .u-section-3 .u-layout-cell-1 {

@@ -48858,7 +48858,7 @@ a.u-link.u-text-hover-color-var.hover {
   --text-active-color-var: #000000;
   filter: none;
   --color-var: #a08f7c;
-  min-height: 134px;
+  min-height: 135px;
 }
 
 .u-header .u-text-1 {
@@ -48872,7 +48872,7 @@ a.u-link.u-text-hover-color-var.hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -41px auto 0 calc(((100% - 1140px) / 2)  + -25px);
+  margin: -39px auto 3px calc(((100% - 1140px) / 2)  + -24px);
 }
 
 .u-header .u-hamburger-link-1 {
@@ -48893,18 +48893,6 @@ a.u-link.u-text-hover-color-var.hover {
 
 .u-header .u-nav-2 {
   font-size: 1.25rem;
-}
-
-.u-header .u-shopping-cart-1 {
-  height: 54px;
-  width: 54px;
-  margin: -75px calc(((100% - 1140px) / 2)  + 98px) 25px auto;
-}
-
-.u-header .u-icon-1 {
-  background-image: none;
-  --color-var: #a08f7c;
-  padding: 14px;
 }
 @media (max-width: 1199px) {
    .u-header {
@@ -48929,13 +48917,8 @@ a.u-link.u-text-hover-color-var.hover {
   .u-header .u-menu-1 {
     width: auto;
     margin-top: -9px;
+    margin-bottom: 7px;
     margin-left: calc(((100% - 940px) / 2)  + -30px);
-  }
-
-  .u-header .u-shopping-cart-1 {
-    margin-top: -49px;
-    margin-right: calc(((100% - 940px) / 2)  + 68px);
-    margin-bottom: 2px;
   }
 }
 @media (max-width: 991px) {
@@ -48956,13 +48939,8 @@ a.u-link.u-text-hover-color-var.hover {
 
   .u-header .u-menu-1 {
     margin-top: -46px;
+    margin-bottom: 24px;
     margin-left: calc(((100% - 720px) / 2)  + 44px);
-  }
-
-  .u-header .u-shopping-cart-1 {
-    margin-top: -43px;
-    margin-right: calc(((100% - 720px) / 2)  + 32px);
-    margin-bottom: 13px;
   }
 }
 @media (max-width: 767px) {
@@ -48983,13 +48961,8 @@ a.u-link.u-text-hover-color-var.hover {
 
   .u-header .u-menu-1 {
     margin-top: -58px;
-    margin-left: calc(((100% - 540px) / 2)  + 14px);
-  }
-
-  .u-header .u-shopping-cart-1 {
-    margin-top: -54px;
-    margin-right: calc(((100% - 540px) / 2)  + 14px);
     margin-bottom: 36px;
+    margin-left: calc(((100% - 540px) / 2)  + 14px);
   }
 }
 @media (max-width: 575px) {
@@ -49012,23 +48985,12 @@ a.u-link.u-text-hover-color-var.hover {
 
   .u-header .u-menu-1 {
     margin-top: -32px;
+    margin-bottom: 12px;
     margin-left: calc(((100% - 340px) / 2)  + -13px);
   }
 
   .u-header .u-hamburger-link-1 {
     font-size: calc(1em + 8px);
-  }
-
-  .u-header .u-shopping-cart-1 {
-    height: 40px;
-    width: 40px;
-    margin-top: -40px;
-    margin-right: calc(((100% - 340px) / 2)  + -20px);
-    margin-bottom: 12px;
-  }
-
-  .u-header .u-icon-1 {
-    padding: 7px;
   }
 }
  .u-footer {
@@ -49043,7 +49005,7 @@ a.u-link.u-text-hover-color-var.hover {
 }
 
 .u-footer .u-text-1 {
-  margin: 37px 0 0;
+  margin: 19px 0 0;
 }
 
 .u-footer .u-text-2 {
