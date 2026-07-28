@@ -119,25 +119,27 @@
   }
 
   .u-section-1 .u-sheet-1 {
-    min-height: 534px;
+    min-height: 537px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: 22px;
+    margin-top: 23px;
     margin-left: -13px;
     margin-right: -13px;
   }
 
   .u-section-1 .u-btn-1 {
     margin-top: -73px;
-    padding-right: 18px;
-    padding-left: 17px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    padding-left: 21px;
   }
 
   .u-section-1 .u-btn-2 {
-    margin-bottom: 50px;
-    padding-left: 3px;
-    padding-right: 3px;
+    margin-top: -29px;
+    margin-bottom: 60px;
+    padding-top: 4px;
+    padding-bottom: 5px;
   }
 } .u-section-2 {
   --color-var: #eee9dd;
